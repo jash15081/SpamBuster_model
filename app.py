@@ -22,9 +22,8 @@ def predict():
     message = request.form.get('text')
     message = vectorizer.transform([message])
     
-    # Make prediction
     prediction = model.predict(message)
-    output = 'Spam' if prediction[0] == 1 else 'not sapm :)'
+    output = 'Spam' if prediction[0] == 1 else 'not sapm'
 
     return render_template('index.html', prediction_text='Prediction: {}'.format(output))
 
