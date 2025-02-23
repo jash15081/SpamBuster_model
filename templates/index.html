@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>Spam Busters</title>
@@ -52,4 +52,130 @@
         {% endif %}
     </div>
 </body>
+</html> 
+
+Smituz Code : 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Busters - SMS Spam Detection</title>
+    <style>
+        /* Global Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #121826;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #00aaff;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #d1d5db;
+            max-width: 800px;
+            margin: 0 auto 30px auto;
+            line-height: 1.6;
+        }
+
+        /* Try It Out Section */
+        .try-section {
+            margin-top: 30px;
+        }
+
+        .form-container {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background: #334155;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        input[type="text"]::placeholder {
+            color: #94a3b8;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            background: #00aaff;
+            color: #ffffff;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #0088cc;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Spam Busters</h1>
+
+    <p>
+        Did you know? Over <strong>50% of SMS messages</strong> today are classified as spam, 
+        tricking people into scams and phishing attempts. 
+        This project aims to match Google's and other leading spam detection models 
+        by offering an AI-driven SMS spam detection system.
+    </p>
+
+    <div class="try-section">
+        <h2>Try It Out</h2>
+        <div class="form-container">
+            <form action="#" method="post">
+                <input type="text" name="sms_text" placeholder="Enter your SMS text here..." required>
+                <button type="submit">Check for Spam</button>
+            </form>
+        </div>
+    </div>
+
+</body>
 </html>
+
+
+
