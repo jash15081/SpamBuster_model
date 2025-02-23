@@ -8,7 +8,7 @@ SpamBuster is a machine-learning-based spam SMS detection system that helps user
 ## Contributors
 - [Smit Bhansali](https://github.com/smituz)
 - [Jaimin Dekavadiya](https://github.com/jash15081)
-- [Krish Chaudhary](https://github.com/krish__)
+- [Krish Chaudhary](https://github.com/krish__2805)
 
 
 ## 🏆 Hackathon Details
